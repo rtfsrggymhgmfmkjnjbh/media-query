@@ -1,0 +1,173 @@
+
+nav {
+    background-color: black;
+   padding: 30px;
+   text-align: center;
+}
+
+nav a{
+    padding:10px 30px;
+    text-decoration: noness;
+}
+
+form{
+    margin-top: 20px;
+}
+nav {
+    background-color: lightblue;
+  
+    padding: 30px;
+    text-align: center;
+  }
+  nav a {
+    padding: 10px 30px;
+    text-decoration: none;
+  }
+  form {
+    margin-top: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input,
+  textarea {
+    width: 300px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    /* margin: 1rem 40rem; */
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+    color: white;
+  }
+  .container1,
+  .container2,
+  .container3,
+  .container4,
+  .container5 {
+    padding: 20px;
+    text-align: center;
+  }
+  .project1 {
+    background-color: lightgrey;
+    /* float: left; */
+    /* width: 35%; */
+    height: 150px;
+    /* padding-top: 20px;
+    margin-left: 10rem; */
+    border-radius: 20px;
+  }
+  .project2 {
+    background-color: lightgrey;
+    /* float: right; */
+    /* width: 35%;
+    padding-top: 20px;
+    margin-right: 10rem; */
+    height: 150px;
+    border-radius: 20px;
+  }
+  .about-project {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    gap: 20px;
+  }
+  @media (max-width: 480px) {
+    nav {
+      background-color: lightblue;
+      /* padding: 30px; */
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+    }
+    nav a {
+      /* padding: 10px 20px; */
+      text-decoration: none;
+    }
+  }
+  .container3 h1 {
+    width: 100%;
+    text-align: center;
+  }
+  /* .container3 {
+    display: flex;
+    justify-content: space-between;
+  } */
+  
+  @media (min-width: 760px) and (max-width: 1024px) {
+    .container3 {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    .project1 .project2 {
+      background-color: lightgrey;
+      /* float: left;
+      width: 35%; */
+      height: 150px;
+      /* margin: 40px; */
+      border-radius: 20px;
+    }
+    /* .project2 {
+      background-color: lightgrey;
+      float: right;
+      width: 35%;
+      height: 200px;
+      margin-right: 10rem;
+      border-radius: 20px;
+    } */
+  }
+  @media (min-width: 1025px) and (max-width: 1440px) {
+    form {
+      margin-top: 20px;
+    }
+  
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+  
+    input,
+    textarea {
+      width: 300px;
+      padding: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      margin-bottom: 20px;
+    }
+  
+    button {
+      background-color: #4caf50;
+      color: white;
+      padding: 10px 25px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      /* margin: 1rem 40rem; */
+    }
+  
+    footer {
+      text-align: center;
+      padding: 10px;
+      background-color: black;
+      color: white;
+    }
+  }
+
